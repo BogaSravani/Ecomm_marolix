@@ -22,7 +22,7 @@ public class LoginData {
 		driver.findElement(By.linkText("Log In")).click();
 	}
 	
-@Test(dataProvider="user",dataProviderClass=DataPP.class)
+@Test(dataProvider="user",dataProviderClass=DataPPr.class)
  
 public void log(String username,String password)
 {	 
